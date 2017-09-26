@@ -1,4 +1,14 @@
 [ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@value" : "Female"
+    }, {
+      "@value" : "Male"
+    } ]
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
@@ -165,6 +175,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Genre",
