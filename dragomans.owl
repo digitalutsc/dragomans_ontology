@@ -1,0 +1,307 @@
+[ {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agapito,_Gabriel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_Mentioned_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_mentioned"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_addresed_place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_addressed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_addressed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_addressed_note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_addressed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_mentioned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_mentioned_note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency_mentioned"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Alternative_family_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Alternative_given_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Alternative_namepart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Archival_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Associated_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Associated_Position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Coordinates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Date_Start_Key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Date_end",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Date_end_key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Date_start",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Date_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#English_summary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event_description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Family_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Given_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Language_notes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Namepart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Nation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Nation_notes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Nation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Place_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Production_Document_Key_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Production_Document_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Production_Document_date_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Profession_notes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Profession_title"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Profession_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Related_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Related_Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Topic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Transcription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Transliteration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Document"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Genre"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
+  }, {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
+  } ]
+} ]
