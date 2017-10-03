@@ -118,6 +118,15 @@
     "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentAgencyRelation"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasArchivalObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archival_Object"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasArchive",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
