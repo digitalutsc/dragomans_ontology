@@ -1,449 +1,694 @@
-[ {
-  "@id" : "_:genid1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentAgencyRelation"
-    }, {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Milestone"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-    }, {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Agency"
-    }, {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPlaceRelation"
-    }, {
-      "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Milestone"
-    } ]
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Agapito,_Gabriel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Agency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archival_Object",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archive",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentAgencyRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentDocumentRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentGenreRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPersonRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPlaceRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Event",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Milestone"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Genre",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Language",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Milestone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Place",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Position",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Milestone"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Topic",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#guy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasAbbreviation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archive"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasAgency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Agency"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasAgencyType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentAgencyRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasArchivalObject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archival_Object"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasArchive",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archival_Object"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archive"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasCoordinates",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Place"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDateEnd",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDateEndText",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDateStart",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDateStartText",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDateText",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDateType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDescription",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Event"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDocument",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentDocumentRelation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDocumentAgencyRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentAgencyRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDocumentDocumentRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentDocumentRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDocumentGenreRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentGenreRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDocumentPersonRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPersonRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasDocumentPlaceRelation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPlaceRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasEvent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Event"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasEventType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Event"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasFamilyName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasFamilyNameAlternate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasGender",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasGenre",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentGenreRelation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Genre"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasGivenName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasHonorific",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPersonRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasISILMARC",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archive"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasLanguage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid4"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Language"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasMediatingAgent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentGenreRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasNamepart",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasNamepartAlternate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasNation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasPageCount",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Archival_Object"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasPartsofAddress",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasPerson",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPersonRelation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasPlace",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid7"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Place"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasPlaceType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#DocumentPlaceRelation"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasPosition",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Position"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasProfession",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasRole-change",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasSummary",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasTopic",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Topic"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasTranscription",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#hasTransliteration",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Document"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#persontest",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/kpham/ontologies/2017/8/dragomans#Person" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Agency"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Archive"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#DocumentAgencyRelation"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#DocumentGenreRelation"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Event"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Genre"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Person"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Place"
-  }, {
-    "@id" : "http://www.semanticweb.org/kpham/ontologies/2017/8/untitled-ontology-5#Position"
-  } ]
-}, {
-  "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#rational"
-  } ]
-} ]
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#"
+     xml:base="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAgency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAgency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Agency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAgencyAddressed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAgencyAddressed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Agency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAgencyMentioned -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAgencyMentioned">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Agency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasArchivalIdentifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasArchivalIdentifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Identifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentDocumentRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentDocumentRelation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentPersonHonorificRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentPersonHonorificRelation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonHonorificRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentPersonRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentPersonRelation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentSource">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonHonorificRelation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDocumentTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEventType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEventType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#EventType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGenreTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGenreTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentGenreRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasHonorific -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasHonorific">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonHonorificRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Honorific"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasLanguage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasNation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasNation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Nation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPerson">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentGenreRelation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonHonorificRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonPersonRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonPersonRelation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPersonRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonPositionRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonPositionRelation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonSource">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPersonRelation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPersonTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonRelation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPersonRelation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlace">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Agency"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlaceMentioned -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlaceMentioned">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlaceProduced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlaceProduced">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlaceSent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPlaceSent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPositionTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPositionTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Position"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProfession -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProfession">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Profession"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasTopic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltFamilyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltFamilyName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltGivenName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltGivenName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltName-ornewentry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltName-ornewentry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltNamepart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasAltNamepart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasArchivalPath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasArchivalPath">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasCommonAbbreviation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasCommonAbbreviation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Identifier"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEndDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEndDateText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEndDateText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEndDateType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEndDateType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEnglishSummary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasEnglishSummary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasFamilyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasFamilyName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGivenName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasGivenName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasISILMARC -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasISILMARC">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Identifier"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasMediatingForm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasMediatingForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentGenreRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasNameOfArchiveLang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasNameOfArchiveLang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Identifier"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasNamepart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasNamepart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPageTotal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasPageTotal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProductionDocumentDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProductionDocumentDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProductionDocumentDateText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProductionDocumentDateText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProductionDocumentDateType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasProductionDocumentDateType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasStartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasStartDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasStartDateText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasStartDateText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasStartDateType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasStartDateType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasTranscription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasTranscription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasTransliteration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#hasTransliteration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Identifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Identifier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Archival_Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentDocumentRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentGenreRelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentGenreRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonHonorificRelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonHonorificRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonRelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#DocumentPersonRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#EventType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#EventType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Honorific -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Honorific"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPersonRelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPersonRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#PersonPositionRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Position"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Profession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Profession"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpham/ontologies/2017/9/untitled-ontology-20#Topic"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
